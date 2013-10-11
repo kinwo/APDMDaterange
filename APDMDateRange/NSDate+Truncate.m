@@ -1,13 +1,13 @@
 //
-//  ViewController.h
+//  NSDate+Truncate.m
 //  APDMDateRange
 //
 //  Created by HENRY CHAN on 11/10/13.
 //  Copyright (c) 2013 Henry Chan. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "NSDate+Truncate.h"
 
-@interface ViewController : UIViewController
+@implementation NSDate (Truncate)
 
 @end
