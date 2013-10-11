@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "NSDate+Truncate.h"
 
 @interface NSDateTruncateTests : XCTestCase
 
@@ -28,7 +29,12 @@
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    NSDateFormatter* formatter = [[NSDateFormatter alloc] init];
+    [formatter setDateFormat:@"YYYY-MM-dd HH:mm:ss"];
+    NSDate* expectedDate = [formatter dateFromString:@"2010-09-01 00:00:00"];
+    NSDate* actualDate = [[formatter dateFromString:@"2010-09-01 18:00:00"] truncateDateToDay];
+    
+    XCTAssertTrue([actualDate compare:expectedDate] == NSOrderedSame, @"Actual date should be identical to expected date.");
 }
 
 @end

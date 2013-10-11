@@ -10,4 +10,11 @@
 
 @implementation NSDate (Truncate)
 
+- (NSDate*) truncateDateToDay
+{
+    NSDate* truncatedDate;
+    [[NSCalendar currentCalendar] rangeOfUnit:NSDayCalendarUnit startDate:&truncatedDate interval:NULL forDate:self];
+    return truncatedDate;
+}
+
 @end

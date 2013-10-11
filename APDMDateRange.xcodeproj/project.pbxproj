@@ -7,20 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA0EECD8180810260077BE00 /* NSDateTruncateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0EECD7180810260077BE00 /* NSDateTruncateTests.m */; };
+		BA0EECDB180813A10077BE00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0EECDA180813A10077BE00 /* AppDelegate.m */; };
+		BA0EECDC180813A10077BE00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0EECDA180813A10077BE00 /* AppDelegate.m */; };
 		BAD2BDBA1807D8E400211D35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD2BDB91807D8E400211D35 /* Foundation.framework */; };
 		BAD2BDBC1807D8E400211D35 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD2BDBB1807D8E400211D35 /* CoreGraphics.framework */; };
 		BAD2BDBE1807D8E400211D35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD2BDBD1807D8E400211D35 /* UIKit.framework */; };
 		BAD2BDC41807D8E400211D35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAD2BDC21807D8E400211D35 /* InfoPlist.strings */; };
 		BAD2BDC61807D8E400211D35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD2BDC51807D8E400211D35 /* main.m */; };
-		BAD2BDCA1807D8E400211D35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD2BDC91807D8E400211D35 /* AppDelegate.m */; };
-		BAD2BDCD1807D8E400211D35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAD2BDCB1807D8E400211D35 /* Main.storyboard */; };
-		BAD2BDD01807D8E400211D35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD2BDCF1807D8E400211D35 /* ViewController.m */; };
 		BAD2BDD21807D8E400211D35 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAD2BDD11807D8E400211D35 /* Images.xcassets */; };
 		BAD2BDD91807D8E400211D35 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD2BDD81807D8E400211D35 /* XCTest.framework */; };
 		BAD2BDDA1807D8E400211D35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD2BDB91807D8E400211D35 /* Foundation.framework */; };
 		BAD2BDDB1807D8E400211D35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD2BDBD1807D8E400211D35 /* UIKit.framework */; };
 		BAD2BDE31807D8E400211D35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAD2BDE11807D8E400211D35 /* InfoPlist.strings */; };
-		BAD2BDE51807D8E400211D35 /* APDMDateRangeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD2BDE41807D8E400211D35 /* APDMDateRangeTests.m */; };
+		BAD2BDE51807D8E400211D35 /* DateRangeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD2BDE41807D8E400211D35 /* DateRangeTests.m */; };
+		BAD2BDF01807D94E00211D35 /* DateRange.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD2BDEF1807D94E00211D35 /* DateRange.m */; };
+		BAD2BDF11807D94E00211D35 /* DateRange.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD2BDEF1807D94E00211D35 /* DateRange.m */; };
+		BAD2BDF41807E23600211D35 /* NSDate+Truncate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD2BDF31807E23600211D35 /* NSDate+Truncate.m */; };
+		BAD2BDF51807E23600211D35 /* NSDate+Truncate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD2BDF31807E23600211D35 /* NSDate+Truncate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA0EECD7180810260077BE00 /* NSDateTruncateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDateTruncateTests.m; sourceTree = "<group>"; };
+		BA0EECD9180813A10077BE00 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA0EECDA180813A10077BE00 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BAD2BDB61807D8E400211D35 /* APDMDateRange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APDMDateRange.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAD2BDB91807D8E400211D35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BAD2BDBB1807D8E400211D35 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -42,17 +49,16 @@
 		BAD2BDC31807D8E400211D35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BAD2BDC51807D8E400211D35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BAD2BDC71807D8E400211D35 /* APDMDateRange-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "APDMDateRange-Prefix.pch"; sourceTree = "<group>"; };
-		BAD2BDC81807D8E400211D35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		BAD2BDC91807D8E400211D35 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BAD2BDCC1807D8E400211D35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BAD2BDCE1807D8E400211D35 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BAD2BDCF1807D8E400211D35 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BAD2BDD11807D8E400211D35 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BAD2BDD71807D8E400211D35 /* APDMDateRangeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APDMDateRangeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAD2BDD81807D8E400211D35 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		BAD2BDE01807D8E400211D35 /* APDMDateRangeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "APDMDateRangeTests-Info.plist"; sourceTree = "<group>"; };
 		BAD2BDE21807D8E400211D35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		BAD2BDE41807D8E400211D35 /* APDMDateRangeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APDMDateRangeTests.m; sourceTree = "<group>"; };
+		BAD2BDE41807D8E400211D35 /* DateRangeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateRangeTests.m; sourceTree = "<group>"; };
+		BAD2BDEE1807D94E00211D35 /* DateRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateRange.h; sourceTree = "<group>"; };
+		BAD2BDEF1807D94E00211D35 /* DateRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateRange.m; sourceTree = "<group>"; };
+		BAD2BDF21807E23600211D35 /* NSDate+Truncate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Truncate.h"; sourceTree = "<group>"; };
+		BAD2BDF31807E23600211D35 /* NSDate+Truncate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Truncate.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +118,12 @@
 		BAD2BDBF1807D8E400211D35 /* APDMDateRange */ = {
 			isa = PBXGroup;
 			children = (
-				BAD2BDC81807D8E400211D35 /* AppDelegate.h */,
-				BAD2BDC91807D8E400211D35 /* AppDelegate.m */,
-				BAD2BDCB1807D8E400211D35 /* Main.storyboard */,
-				BAD2BDCE1807D8E400211D35 /* ViewController.h */,
-				BAD2BDCF1807D8E400211D35 /* ViewController.m */,
+				BA0EECD9180813A10077BE00 /* AppDelegate.h */,
+				BA0EECDA180813A10077BE00 /* AppDelegate.m */,
+				BAD2BDF21807E23600211D35 /* NSDate+Truncate.h */,
+				BAD2BDF31807E23600211D35 /* NSDate+Truncate.m */,
+				BAD2BDEE1807D94E00211D35 /* DateRange.h */,
+				BAD2BDEF1807D94E00211D35 /* DateRange.m */,
 				BAD2BDD11807D8E400211D35 /* Images.xcassets */,
 				BAD2BDC01807D8E400211D35 /* Supporting Files */,
 			);
@@ -137,7 +144,8 @@
 		BAD2BDDE1807D8E400211D35 /* APDMDateRangeTests */ = {
 			isa = PBXGroup;
 			children = (
-				BAD2BDE41807D8E400211D35 /* APDMDateRangeTests.m */,
+				BA0EECD7180810260077BE00 /* NSDateTruncateTests.m */,
+				BAD2BDE41807D8E400211D35 /* DateRangeTests.m */,
 				BAD2BDDF1807D8E400211D35 /* Supporting Files */,
 			);
 			path = APDMDateRangeTests;
@@ -230,7 +238,6 @@
 			files = (
 				BAD2BDD21807D8E400211D35 /* Images.xcassets in Resources */,
 				BAD2BDC41807D8E400211D35 /* InfoPlist.strings in Resources */,
-				BAD2BDCD1807D8E400211D35 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +256,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAD2BDD01807D8E400211D35 /* ViewController.m in Sources */,
-				BAD2BDCA1807D8E400211D35 /* AppDelegate.m in Sources */,
+				BA0EECDB180813A10077BE00 /* AppDelegate.m in Sources */,
+				BAD2BDF41807E23600211D35 /* NSDate+Truncate.m in Sources */,
 				BAD2BDC61807D8E400211D35 /* main.m in Sources */,
+				BAD2BDF01807D94E00211D35 /* DateRange.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +267,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAD2BDE51807D8E400211D35 /* APDMDateRangeTests.m in Sources */,
+				BA0EECD8180810260077BE00 /* NSDateTruncateTests.m in Sources */,
+				BAD2BDE51807D8E400211D35 /* DateRangeTests.m in Sources */,
+				BAD2BDF11807D94E00211D35 /* DateRange.m in Sources */,
+				BAD2BDF51807E23600211D35 /* NSDate+Truncate.m in Sources */,
+				BA0EECDC180813A10077BE00 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,14 +292,6 @@
 				BAD2BDC31807D8E400211D35 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		BAD2BDCB1807D8E400211D35 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BAD2BDCC1807D8E400211D35 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		BAD2BDE11807D8E400211D35 /* InfoPlist.strings */ = {
@@ -381,7 +385,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "APDMDateRange/APDMDateRange-Prefix.pch";
 				INFOPLIST_FILE = "APDMDateRange/APDMDateRange-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -394,7 +400,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "APDMDateRange/APDMDateRange-Prefix.pch";
 				INFOPLIST_FILE = "APDMDateRange/APDMDateRange-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -460,6 +468,7 @@
 				BAD2BDEA1807D8E400211D35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BAD2BDEB1807D8E400211D35 /* Build configuration list for PBXNativeTarget "APDMDateRangeTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +477,7 @@
 				BAD2BDED1807D8E400211D35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
