@@ -27,7 +27,7 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testTruncateDateToDay
 {
     NSDateFormatter* formatter = [[NSDateFormatter alloc] init];
     [formatter setDateFormat:@"YYYY-MM-dd HH:mm:ss"];

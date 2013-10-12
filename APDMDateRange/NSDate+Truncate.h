@@ -11,6 +11,9 @@
 
 @interface NSDate (Truncate)
 
+/**
+ Truncate the date into day level and return a new NSDate object
+ */
 - (NSDate*) truncateDateToDay;
 
 @end

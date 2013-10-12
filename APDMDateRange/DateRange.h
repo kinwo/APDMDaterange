@@ -18,7 +18,7 @@
 + (id) createWithStartDate:(NSDate*)start endDate:(NSDate*)end;
 
 /**
- Return number of days between the range in float.
+ Return number of days between the range in integer.
  */
 - (NSInteger) numberOfDaysBetween;
 
