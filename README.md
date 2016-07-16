@@ -1,7 +1,6 @@
 A simple XCode 5 project showing basic Date Range model and XCTestCase.
 
 # Author: Henry Chan
-# Git Repo - https://bitbucket.org/kinwo/apdmdaterange/
 
 # Classes
 Model - DateRange.h, DateRange.m
